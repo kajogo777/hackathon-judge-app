@@ -1,0 +1,46 @@
+{
+    "scores": {
+        "Amr Draz_Team 1": {
+            "judge": "Amr Draz",
+            "team": "Team 1",
+            "scores": {
+                "Best Agent": {
+                    "Valid Application of LLM Agents": 3,
+                    "Solving a Real Problem": 2,
+                    "Working Prototype": 3,
+                    "Innovation": 1,
+                    "Quality of Demo": 3
+                },
+                "Most Entertaining": {
+                    "Entertainment": 2
+                },
+                "Humanity is Doomed": {
+                    "Fear for the future of humanity": 1
+                }
+            },
+            "notes": "",
+            "timestamp": "2025-05-10 18:07:12"
+        },
+        "Amr Draz_Team 2": {
+            "judge": "Amr Draz",
+            "team": "Team 2",
+            "scores": {
+                "Best Agent": {
+                    "Valid Application of LLM Agents": 2,
+                    "Solving a Real Problem": 2,
+                    "Working Prototype": 5,
+                    "Innovation": 2,
+                    "Quality of Demo": 3
+                },
+                "Most Entertaining": {
+                    "Entertainment": 2
+                },
+                "Humanity is Doomed": {
+                    "Fear for the future of humanity": 1
+                }
+            },
+            "notes": "",
+            "timestamp": "2025-05-10 11:31:17"
+        }
+    }
+}

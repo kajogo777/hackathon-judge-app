@@ -1,0 +1,49 @@
+event:
+  title: "GenAI Agent Hackathon"
+  logo_path: "./event_logo.png" # Path relative to app.py, leave empty for no logo
+
+judges:
+  - "Judge 1"
+  - "Judge 2"
+  - "Judge 3"
+  - "Judge 4"
+
+teams:
+  - "Team 1"
+  - "Team 2"
+  - "Team 3"
+  - "Team 4"
+  - "Team 5"
+  - "Team 6"
+  - "Team 7"
+
+categories:
+  - name: "Best Agent"
+    criteria:
+      - name: "Valid Application of LLM Agents"
+        max_score: 5
+        description: "Cannot be built with a deterministic algorithm or an LLM workflow"
+      - name: "Solving a Real Problem"
+        max_score: 5
+        description: "Addresses a genuine need or pain point"
+      - name: "Working Prototype"
+        max_score: 5
+        description: "Functional implementation that demonstrates core features"
+      - name: "Innovation"
+        max_score: 5
+        description: "Originality and creativity of the solution"
+      - name: "Quality of Demo"
+        max_score: 5
+        description: "Clear presentation and demonstration of the solution"
+
+  - name: "Most Entertaining"
+    criteria:
+      - name: "Entertainment"
+        max_score: 5
+        description: "Entertainment"
+
+  - name: "Humanity is Doomed"
+    criteria:
+      - name: "Fear for the future of humanity"
+        max_score: 5
+        description: "Fear for the future of humanity"

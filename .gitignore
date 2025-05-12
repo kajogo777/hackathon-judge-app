@@ -1,0 +1,48 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Mac specific
+.DS_Store
+
+# Application specific data files
+# Uncomment if you want to exclude these from git
+# scores.json
+
+# Log files
+*.log
+
+# Environment-specific
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Local development settings
+*.local.yaml
+*.local.yml 
