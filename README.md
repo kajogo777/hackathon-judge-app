@@ -10,6 +10,12 @@ A Streamlit web application for judging hackathon pitches. Designed to be access
 - Mobile-friendly design: Optimized for use on mobile devices
 - Configurable through YAML: Easy to adjust teams, judges, and judging criteria
 - Custom branding: Add your event logo and title for personalized experience
+- Authentication: Password protection for judges to secure the scoring process
+
+![Login Screenshot](assets/login.png)
+![Judge App Screenshot](assets/judge.png)
+![Scores Screenshot](assets/scores.png)
+![Leaderboard Screenshot](assets/leaderboard.png)
 
 ## Setup Instructions
 
