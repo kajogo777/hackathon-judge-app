@@ -30,8 +30,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 4. Create a virtual environment and install the required dependencies with uv:
 
 ```bash
-uv venv
-uv pip install streamlit==1.31.0 pyyaml==6.0.1 pillow==10.0.0
+uv sync
 ```
 
 5. Configure the app by editing `config.yaml`:
