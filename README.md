@@ -86,7 +86,7 @@ uv run streamlit run app.py
 
 All judging data is stored in a `scores.json` file in the same directory as the app. The file is created automatically when the first scores are saved.
 
-## Deploy
+## Vibe Deploy
 
 ```bash
 stakpak agent run -i -a norbert:v1 "deploy this streamlit app on AWS, with TLS, and using the route53 subdomain hackjudge.stakpak.dev"
