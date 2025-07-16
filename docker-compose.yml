@@ -1,0 +1,28 @@
+services:
+  streamlit-judge-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      - APP_PASSCODE=hackathon2025
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    volumes:
+      # Development volumes - comment out for production
+      - ./app.py:/app/app.py
+      - ./config.yaml:/app/config.yaml
+      - ./event_logo.png:/app/event_logo.png
+      - ./assets:/app/assets
+    networks:
+      - streamlit-network
+
+networks:
+  streamlit-network:
+    driver: bridge
