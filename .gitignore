@@ -46,3 +46,5 @@ ENV/
 # Local development settings
 *.local.yaml
 *.local.yml 
+
+.stakpak
